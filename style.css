@@ -1,0 +1,336 @@
+.navbar {
+    /* border: ; */
+    height: 50px;
+    margin: 0px;
+    background-color: #081b29;
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li {
+    justify-content: right;
+    display: flex;
+    list-style-type: none;
+    float: left;
+    text-decoration: none;
+}
+
+.navbar li a {
+    justify-content: right;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar li a:hover {
+    color: #00ABF0;
+}
+
+.navbar li a:active {
+    color: #00ABF0;
+}
+
+.navbar ul {
+    overflow: hidden;
+}
+
+#Hi {
+    color: aliceblue;
+}
+
+body {
+    background-color: #081b29;
+    /* opacity: ; */
+}
+
+.container {
+   /* border: 2px solid red;*/
+    height: 600px;
+    top: 38px;
+    /* background-color: ; */
+
+}
+
+#box1 {
+    border-radius: 50%;
+    justify-content: right;
+    height: 305px;
+    width: 358px;
+    /*border: 2px solid green;*/
+    color: aliceblue;
+    padding: 75px 60px;
+    margin: 42px 20px;
+    float: right;
+    background-image: url(image/YP.jpg);
+    background-color: #00ABF0;
+}
+
+image {
+    object-fit: cover;
+}
+
+#box2 {
+    height: 400px;
+    width: 400px;
+    float: left;
+    /* border: 2px solid greenyellow;*/
+    padding: 20px 85px;
+    margin: 71px 20px;
+    /*  animation-name: abhi;
+    animation-duration: 3s;
+    animation-iteration-count: 1;*/
+}
+.bt{
+    border: 2px solid #00ABF0;
+    background-color:aqua;
+    color:#00ABF0;
+    border-radius: 2px;
+    
+}
+/*@keyframes abhi{
+    from{
+        width: 20px;
+    }
+    to{
+        width: 400px;
+    }
+}*/
+#Hi {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#name {
+    font-size: xx-large;
+
+}
+
+span {
+    color: chocolate;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#front {
+    color: #00ABF0;
+}
+
+#ps {
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.about {
+    height: 400px;
+    width: auto;
+    background-color: #112E42;
+    /*border: 2px solid yellow;
+    justify-content: center;
+}
+
+.AB {
+    display: flex;
+    justify-content: center;
+    /* border: 2PX SOLID red;*/
+}
+
+.ab1 {
+    justify-content: center;
+    color: aliceblue;
+
+}
+
+.f {
+    display: flex;
+    justify-content: center;
+    color: #00ABF0;
+    /* border: 2px solid brown;*/
+}
+
+.int {
+    display: flex;
+    justify-content: center;
+    /*  border: 2px solid rebeccapurple;*/
+    margin: 0px 260px;
+    height: 200px;
+    color: aliceblue;
+}
+
+#in {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.education {
+   /* border: 4px solid gold;*/
+    height: 1100px;
+    padding: 0px 278px;
+    margin: 0px;
+    justify-content: center;
+
+}
+
+.box4 {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    /* border: 2px solid #00ABF0;*/
+    height: px;
+    background-color: #081b29;
+    margin: 0px;
+}
+
+.boxM {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 200px;
+    margin: 37px;
+    border: 3px solid #00ABF0;
+    color: aliceblue;
+    /* padding: ; */
+    border-radius: 12px;
+}
+.box5 {
+    /* display: ; */
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 200px;
+    margin: 37px;
+    border: 3px solid #00ABF0;
+    color: aliceblue;
+    /* padding: ; */
+    border-radius: 12px;
+}
+
+.box6 {
+    /* display: ; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 200px;
+    border: 3px solid #00ABF0;
+    margin: 37px;
+    border-radius: 12px;
+    color: aliceblue;
+}
+
+#psi {
+    text-align: center;
+}
+
+#ba {
+    text-align: center;
+}
+
+#y {
+    text-align: center;
+}
+
+#ch {
+    text-align: center;
+    color:aliceblue ;
+}
+
+#hig {
+    text-align: center;
+}
+
+.box7 {
+    /* display: ; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* justify-content: ; */
+    height: 200px;
+    border: 3px solid #00ABF0;
+    margin: 37px;
+    border-radius: 12px;
+    color: aliceblue;
+}
+
+.edu {
+    color: aliceblue;
+}
+
+.skill {
+    height: 10pxpx;
+  /*  border: 2px solid red;*/
+    color: aliceblue;
+    background-color: #112E42;
+}
+/* 
+.box8 {
+    /*border: 2px solid yellow;
+    /*height: 200px;
+   width: 200px;
+
+} */
+
+.sk {
+    background-color: #112E42;
+   /* border: 4px solid gainsboro;*/
+    height: 508px;
+    padding: 0px 278px;
+    margin: 0px;
+
+}
+#p{
+    font-size: 17px;
+    text-align: center;
+}
+.box9 {
+    /* display: ; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* justify-content: ; */
+    height: 200px;
+    border: 3px solid #00ABF0;
+    margin: 37px;
+    border-radius: 12px;
+    color: aliceblue;}
+
+.boxe {
+    /* display: ; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* justify-content: ; */
+    height: 200px;
+    border: 3px solid #00ABF0;
+    margin: 37px;
+    border-radius: 12px;
+    color: aliceblue;
+}
+.contact{
+   /* border: 2px solid whitesmoke;*/
+    height: 200px;
+    background-color: #081b29;
+}
+#lin{
+    text-align: center;
+    color: aliceblue;
+}
+footer {
+    background-color: #112E42; /* Background color */
+    padding: 20px; /* Padding around content */
+    color: #fff; /* Text color */
+    text-align: center; /* Center-align text */
+}
+
+/* Style for the LinkedIn and GitHub logos */
+footer p {
+    color: #fff; /* Link color */
+    margin: 0 10px; /* Margin between logos */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect on logos */
+footer p:hover {
+    color: #00ABF0; /* Change color on hover */
+}
